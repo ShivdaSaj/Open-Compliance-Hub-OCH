@@ -8,6 +8,8 @@
 
 🌐 **Live portal:** [compliance.sajinshivdas.online](https://compliance.sajinshivdas.online)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 ![Open Compliance Hub landing page](docs/screenshots/landing-hero.png)
 
 </div>
@@ -34,7 +36,8 @@
 16. [How the score is calculated](#how-the-score-is-calculated)
 17. [Status values](#status-values)
 18. [Credits, data sources and licences](#credits-data-sources-and-licences)
-19. [Disclaimer](#disclaimer)
+19. [Licence](#licence)
+20. [Disclaimer](#disclaimer)
 
 > The screenshots use **demo data** (a fictional "Demo Organisation LLC") to show the features. They do not show any real organisation's compliance posture.
 
@@ -530,6 +533,14 @@ Imports and restores also recognise common synonyms (*Yes / Partial / No / N/A /
 - **Charts:** [Chart.js](https://www.chartjs.org/) (MIT).
 
 **ISO copyright:** ISO/IEC 27001 and ISO/IEC 27002 are copyrighted by ISO and IEC. This portal contains only control identifiers, titles and paraphrased descriptions, never the normative text of the standards. Buy the official standards from [iso.org](https://www.iso.org/standard/27001) or your national standards body.
+
+---
+
+## Licence
+
+This project is released under the [MIT License](LICENSE) © 2026 Sajin Shivdas.
+
+Third-party content keeps its own licence: the ISO 27001 dataset ([sushegaad/MCP-Server-for-ISO27001](https://github.com/sushegaad/MCP-Server-for-ISO27001)) and the ISO 27001:2022 Toolkit templates (Pehan Gunasekara) are both MIT-licensed, and Chart.js is MIT-licensed. ISO/IEC standards themselves remain the copyright of ISO and IEC.
 
 ---
 
