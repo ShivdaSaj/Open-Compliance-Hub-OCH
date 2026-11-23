@@ -417,7 +417,7 @@ Every register supports **add, edit and delete**, **search and filter**, **CSV i
 
 ### ISMS template library
 
-Download ready-to-edit templates from the **ISO 27001:2022 Toolkit**:
+Download ready-to-edit templates form the **ISO 27001:2022 Toolkit**:
 
 | Group | Templates |
 |---|---|
@@ -528,10 +528,8 @@ Imports and restores also recognise common synonyms (*Yes / Partial / No / N/A /
 ## Credits, data sources and licences
 
 - **UAE IA control library:** UAE Information Assurance Regulation V1.1, from the original *Open Compliance Hub, UAE IAR Dashboard* (V1.0) by Sajin Shivdas.
-- **ISO/IEC 27001:2022 dataset:** control titles, paraphrased descriptions, ISO/IEC 27002:2022 attributes and the 2013 → 2022 mapping come from the MIT-licensed seed data of [sushegaad/MCP-Server-for-ISO27001](https://github.com/sushegaad/MCP-Server-for-ISO27001). One upstream error was corrected: 5.28 is not new in 2022.
-- **ISMS templates:** the *ISO 27001:2022 Toolkit* by **Pehan Gunasekara**, MIT licence. The templates are provided unchanged, and each one has a licence link in the portal. Some toolkit files use 2013 Annex A numbering; the interactive tools use the corrected 2022 references.
+- **ISO/IEC 27001:2022 dataset:** control titles, paraphrased descriptions, ISO/IEC 27002:2022 attributes.
 - **Charts:** [Chart.js](https://www.chartjs.org/) (MIT).
-
 **ISO copyright:** ISO/IEC 27001 and ISO/IEC 27002 are copyrighted by ISO and IEC. This portal contains only control identifiers, titles and paraphrased descriptions, never the normative text of the standards. Buy the official standards from [iso.org](https://www.iso.org/standard/27001) or your national standards body.
 
 ---
@@ -540,7 +538,7 @@ Imports and restores also recognise common synonyms (*Yes / Partial / No / N/A /
 
 This project is released under the [MIT License](LICENSE) © 2026 Sajin Shivdas.
 
-Third-party content keeps its own licence: the ISO 27001 dataset ([sushegaad/MCP-Server-for-ISO27001](https://github.com/sushegaad/MCP-Server-for-ISO27001)) and the ISO 27001:2022 Toolkit templates (Pehan Gunasekara) are both MIT-licensed, and Chart.js is MIT-licensed. ISO/IEC standards themselves remain the copyright of ISO and IEC.
+Third-party content keeps its own licence:Chart.js is MIT-licensed. ISO/IEC standards themselves remain the copyright of ISO and IEC.
 
 ---
 
