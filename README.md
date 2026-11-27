@@ -10,7 +10,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
-![Open Compliance Hub landing page](docs/screenshots/landing-hero.png)
+![Open Compliance Hub landing page](docs/screenshots/landing-hero.webp)
 
 </div>
 
@@ -96,7 +96,7 @@ Below the hero, the **Compliance library** lists every framework as a card. Each
 
 Filter the cards by type (Regulation, Standard, Framework), by status (Live, Coming soon), or by a free-text search.
 
-![Compliance library](docs/screenshots/framework-library.png)
+![Compliance library](docs/screenshots/framework-library.webp)
 
 ---
 
@@ -141,7 +141,7 @@ When you switch to **My assessment** for the first time, you choose how to start
 - 🆕 **Start a blank assessment:** every control starts as *Not implemented*.
 - 📂 **Restore a backup (.json):** from this portal, or from the original UAE IAR dashboard (V1.0).
 
-![Start my assessment](docs/screenshots/my-assessment-start.png)
+![Start my assessment](docs/screenshots/my-assessment-start.webp)
 
 Once My assessment is on, a **workspace bar** appears under the framework header. It shows:
 
@@ -165,7 +165,7 @@ The dashboard includes:
 - **Programme health:** implementation rate, fully implemented, documentation and evidence coverage, action items closed, SoA applicable
 - **Compliance categories:** a ring per category (risk management, security operation, architecture design, access control, disaster recovery, communications)
 
-![UAE IA dashboard](docs/screenshots/uaeia-dashboard.png)
+![UAE IA dashboard](docs/screenshots/uaeia-dashboard.webp)
 
 It also has these charts:
 
@@ -177,11 +177,11 @@ It also has these charts:
 - applicability
 - Statement of Applicability
 
-![UAE IA charts](docs/screenshots/uaeia-dashboard-charts.png)
+![UAE IA charts](docs/screenshots/uaeia-dashboard-charts.webp)
 
 At the bottom are a **family heatmap** (colour-coded by score), **priority gaps** (the highest-priority controls not yet implemented) and **recently updated** controls.
 
-![UAE IA family heatmap](docs/screenshots/uaeia-dashboard-heatmap.png)
+![UAE IA family heatmap](docs/screenshots/uaeia-dashboard-heatmap.webp)
 
 ### Controls explorer
 
@@ -194,13 +194,13 @@ The explorer is a tree: family → category → control. Expand a control to see
 
 Filter by family, status, priority, compliance category, applicability and SoA. Use **Expand all** and **Collapse all**, or export the filtered list to CSV.
 
-![UAE IA controls explorer](docs/screenshots/uaeia-controls-explorer.png)
+![UAE IA controls explorer](docs/screenshots/uaeia-controls-explorer.webp)
 
 ### Reports & tools
 
 This sub-tab has the report cards (see [Reports and exports](#reports-and-exports)), backup and restore, and featured utilities.
 
-![UAE IA reports](docs/screenshots/uaeia-reports.png)
+![UAE IA reports](docs/screenshots/uaeia-reports.webp)
 
 ### V1.0 Original
 
@@ -216,13 +216,13 @@ In My assessment mode, the whole UAE IA tab works on **your own data**. Every ch
 
 The workspace bar shows your organisation name, the number of controls you changed and when you last saved. The score and charts reflect your assessment, not the published one.
 
-![UAE IA My assessment dashboard](docs/screenshots/uaeia-assess-dashboard.png)
+![UAE IA My assessment dashboard](docs/screenshots/uaeia-assess-dashboard.webp)
 
 ### Assessment history (score snapshots)
 
 Click **📸 Save snapshot** after each review. The **Assessment history** chart then plots your compliance score and fully-implemented rate over time, so you can show progress quarter by quarter.
 
-![UAE IA assessment history](docs/screenshots/uaeia-assess-history.png)
+![UAE IA assessment history](docs/screenshots/uaeia-assess-history.webp)
 
 ### Control editor
 
@@ -241,19 +241,19 @@ Expand any control to edit:
 
 You can also change a status straight from the list without opening the control. Changes save automatically.
 
-![UAE IA control editor](docs/screenshots/uaeia-assess-editor.png)
+![UAE IA control editor](docs/screenshots/uaeia-assess-editor.webp)
 
 ### Reports from your data
 
 In My assessment mode, every report (PDF, Excel and CSV) is generated from your browser data. Excel and CSV files are built on the fly in your browser and never stored on the server.
 
-![UAE IA My assessment reports](docs/screenshots/uaeia-assess-reports.png)
+![UAE IA My assessment reports](docs/screenshots/uaeia-assess-reports.webp)
 
 ### Backup and restore
 
 Download your whole assessment as `.json` (compatible with the original UAE IAR dashboard), or restore a previous backup.
 
-![UAE IA backup and restore](docs/screenshots/uaeia-assess-backup.png)
+![UAE IA backup and restore](docs/screenshots/uaeia-assess-backup.webp)
 
 ---
 
@@ -275,7 +275,7 @@ The ISO tab covers the whole ISMS:
 
 The dashboard has the same KPIs and programme-health panel as UAE IA. Use the scope switch to see **All**, **ISMS clauses** or **Annex A**.
 
-![ISO 27001 dashboard](docs/screenshots/iso-dashboard.png)
+![ISO 27001 dashboard](docs/screenshots/iso-dashboard.webp)
 
 It adds ISO-specific charts:
 
@@ -283,11 +283,11 @@ It adds ISO-specific charts:
 - **family maturity** radar
 - **ISO/IEC 27002:2022 attributes:** control type (preventive, detective, corrective), information security properties (confidentiality, integrity, availability), cybersecurity concepts (identify, protect, detect, respond, recover), operational capabilities and security domains
 
-![ISO 27001 attributes](docs/screenshots/iso-attributes.png)
+![ISO 27001 attributes](docs/screenshots/iso-attributes.webp)
 
 Further down are the clauses vs Annex A split, the SoA gauge and the clause and theme **heatmap**.
 
-![ISO 27001 heatmap](docs/screenshots/iso-dashboard-more.png)
+![ISO 27001 heatmap](docs/screenshots/iso-dashboard-more.webp)
 
 Three more cards follow:
 
@@ -295,7 +295,7 @@ Three more cards follow:
 - **Risk register mini-map:** a likelihood × impact heatmap with counts by level
 - **ISMS tools:** progress across the toolkit
 
-![ISO 27001 new in 2022, risks and tools](docs/screenshots/iso-history-tools-card.png)
+![ISO 27001 new in 2022, risks and tools](docs/screenshots/iso-history-tools-card.webp)
 
 ### Controls explorer with 27002 attributes
 
@@ -310,7 +310,7 @@ The explorer has the usual filters, plus filters for:
 
 Each control lists its **related controls** and the **ISO 27001:2013** controls it replaces, as clickable links.
 
-![ISO 27001 controls explorer](docs/screenshots/iso-controls-scope.png)
+![ISO 27001 controls explorer](docs/screenshots/iso-controls-scope.webp)
 
 ### 2013 → 2022 transition
 
@@ -325,7 +325,7 @@ This sub-tab is for organisations moving from ISO 27001:2013 to 2022. Each 2022 
 
 In total, 114 controls from 2013 map onto the 93 controls of 2022. Search by a 2013 ID (for example `A.12.6.1`) to find where it went, filter by change type, and export the map to CSV.
 
-![ISO 27001 transition](docs/screenshots/iso-transition.png)
+![ISO 27001 transition](docs/screenshots/iso-transition.webp)
 
 ---
 
@@ -335,19 +335,19 @@ Everything in the ISO tab is editable in My assessment mode: control statuses an
 
 ### Dashboard on your data
 
-![ISO 27001 My assessment dashboard](docs/screenshots/iso-assess-dashboard.png)
+![ISO 27001 My assessment dashboard](docs/screenshots/iso-assess-dashboard.webp)
 
 ### Assessment history and tools progress
 
 Save score snapshots after each review. The history chart then tracks your score over time, alongside progress for each ISMS tool.
 
-![ISO 27001 assessment history](docs/screenshots/iso-assess-history.png)
+![ISO 27001 assessment history](docs/screenshots/iso-assess-history.webp)
 
 ### Control editor
 
 The control editor works the same way as in UAE IA: status, SoA applicability and justification, owner, due date, evidence, notes and action items. It works for both clauses and Annex A controls.
 
-![ISO 27001 control editor](docs/screenshots/iso-assess-editor.png)
+![ISO 27001 control editor](docs/screenshots/iso-assess-editor.webp)
 
 ### Risk register
 
@@ -361,19 +361,19 @@ Build your own risk register. Each risk records:
 
 The **heatmap** shows open risks by likelihood × impact. Filter by level, status or treatment, import risks from CSV, and export to CSV or PDF.
 
-![ISO 27001 risk register](docs/screenshots/iso-risk-register.png)
+![ISO 27001 risk register](docs/screenshots/iso-risk-register.webp)
 
-![Add risk](docs/screenshots/iso-assess-add-risk.png)
+![Add risk](docs/screenshots/iso-assess-add-risk.webp)
 
 ### Reports from your data
 
 Generate every report from your own assessment, including the risk register report.
 
-![ISO 27001 My assessment reports](docs/screenshots/iso-assess-reports.png)
+![ISO 27001 My assessment reports](docs/screenshots/iso-assess-reports.webp)
 
 ### Backup and restore
 
-![ISO 27001 backup](docs/screenshots/iso-assess-backup.png)
+![ISO 27001 backup](docs/screenshots/iso-assess-backup.webp)
 
 ---
 
@@ -381,7 +381,7 @@ Generate every report from your own assessment, including the risk register repo
 
 The **🧰 ISMS Tools** sub-tab groups the tools by the Plan-Do-Check-Act cycle of an ISMS. Each tool card shows its clause or control references and your progress.
 
-![ISMS Tools](docs/screenshots/iso-isms-tools.png)
+![ISMS Tools](docs/screenshots/iso-isms-tools.webp)
 
 | Phase | Tool | What it does |
 |---|---|---|
@@ -401,19 +401,19 @@ Every register supports **add, edit and delete**, **search and filter**, **CSV i
 
 ### Gap assessment
 
-![Gap assessment](docs/screenshots/iso-gap-assessment.png)
+![Gap assessment](docs/screenshots/iso-gap-assessment.webp)
 
 ### Statement of Applicability workbench
 
-![SoA workbench](docs/screenshots/iso-soa-workbench.png)
+![SoA workbench](docs/screenshots/iso-soa-workbench.webp)
 
 ### Asset inventory
 
-![Asset inventory](docs/screenshots/iso-asset-register.png)
+![Asset inventory](docs/screenshots/iso-asset-register.webp)
 
 ### Internal audit
 
-![Internal audit](docs/screenshots/iso-internal-audit.png)
+![Internal audit](docs/screenshots/iso-internal-audit.webp)
 
 ### ISMS template library
 
@@ -434,7 +434,7 @@ Download ready-to-edit templates form the **ISO 27001:2022 Toolkit**:
 | Internal Audit | Internal Audit Plan (DOCX), Internal Audit Checklist (XLSX) |
 | ROI | Return on Investment (DOCX) |
 
-![ISMS template library](docs/screenshots/iso-template-library.png)
+![ISMS template library](docs/screenshots/iso-template-library.webp)
 
 ---
 
@@ -453,9 +453,9 @@ The **📑 Reports & tools** sub-tab offers:
 
 **PDF** opens a print-ready page; use *Save as PDF* in the print dialog. **Excel** reports are styled and include a summary sheet. In My assessment mode, all reports come from your own data.
 
-![Executive summary report](docs/screenshots/report-executive.png)
+![Executive summary report](docs/screenshots/report-executive.webp)
 
-![Statement of Applicability report](docs/screenshots/report-soa.png)
+![Statement of Applicability report](docs/screenshots/report-soa.webp)
 
 ---
 
@@ -474,7 +474,7 @@ The **📑 Reports & tools** sub-tab offers:
 
 Frameworks that are not built yet have an animated *Coming soon* page with a short description. They also appear in the library with a **Soon** badge.
 
-![Coming soon](docs/screenshots/coming-soon.png)
+![Coming soon](docs/screenshots/coming-soon.webp)
 
 ---
 
@@ -483,9 +483,9 @@ Frameworks that are not built yet have an animated *Coming soon* page with a sho
 The whole portal adapts to smaller screens, including the landing page, dashboards, explorer, tools and reports.
 
 <p align="center">
-  <img src="docs/screenshots/mobile-landing.png" alt="Mobile landing" width="300">
+  <img src="docs/screenshots/mobile-landing.webp" alt="Mobile landing" width="300">
   &nbsp;&nbsp;
-  <img src="docs/screenshots/mobile-dashboard.png" alt="Mobile dashboard" width="300">
+  <img src="docs/screenshots/mobile-dashboard.webp" alt="Mobile dashboard" width="300">
 </p>
 
 ---
