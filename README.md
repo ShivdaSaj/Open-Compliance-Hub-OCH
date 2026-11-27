@@ -206,6 +206,16 @@ This sub-tab has the report cards (see [Reports and exports](#reports-and-export
 
 The original *UAE IAR self-assessment dashboard* (V1.0) is kept **unchanged** in its own tab. It runs in a secure sandbox, and any self-assessment data you enter there stays in your own browser. Backups from V1.0 can be restored into My assessment in the new portal, and backups from the portal open in V1.0, because both use the same JSON format.
 
+Use **Open full screen** to work in V1.0 on its own page, or **Clear my local data** to start over. The screenshots below show V1.0 after restoring a demo backup exported from My assessment.
+
+V1.0 has its own compliance overview (overall score and a ring per compliance category), status radar, quick stats by priority (P1–P4), applicability and priority status:
+
+![UAE IA V1.0 original dashboard](docs/screenshots/uaeia-v1-original.webp)
+
+It also has report exports (PDF and Excel), backup and restore, and the family → control list:
+
+![UAE IA V1.0 reports, backup and controls](docs/screenshots/uaeia-v1-original-controls.webp)
+
 ---
 
 ## UAE IA in My assessment mode
